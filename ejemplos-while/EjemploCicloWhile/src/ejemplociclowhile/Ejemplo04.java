@@ -30,11 +30,11 @@ public class Ejemplo04 {
              // 25      >= 10              && 25 <= 20 
         while (contador >= limite_inferior && contador <= limite_superior){
             suma = suma + contador; // 
-            System.out.printf("Contador %d\n", contador);
+            System.out.printf("Contador: %d\n", contador);
             contador = contador + 5;
         }
         
-        System.out.printf("La suma final es %d\n", suma);
+        System.out.printf("La suma final es: %d\n", suma);
         
     }
 }
