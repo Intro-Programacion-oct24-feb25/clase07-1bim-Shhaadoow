@@ -25,11 +25,24 @@ public class Ejemplo101 {
         int operacion;
         int tabla;
         
+        System.out.println("Ingrese el limite de su tabla de multiplicar");
+        limite_tabla = entrada.nextInt ();
+        
         System.out.println("Ingrese el número de tabla a generar");
         tabla = entrada.nextInt();
         
         String cadena = ""; // cadena acumulador
         cadena = String.format("%sTabla de multiplicar\n", cadena);
+        
+        if (limite_tabla > 0) {
+            limite_tabla = limite_tabla;
+        }else{
+            if(limite_tabla <= 0){
+               limite_tabla = 12;
+               }
+            
+                
+            }
         
         while (contador <= limite_tabla){
             operacion = tabla * contador;
