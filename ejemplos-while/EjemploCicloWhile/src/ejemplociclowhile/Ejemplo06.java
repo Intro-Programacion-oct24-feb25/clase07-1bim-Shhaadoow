@@ -30,7 +30,8 @@ public class Ejemplo06 {
         System.out.println("Ingrese las notas de los "
                 + "estudiantes de su materia");
         // true 
-        // while (bandera) {
+        // while (bandera) {Esas líneas son lo mismo, ambas expresan la misma
+        // variable booleana y pueden agilizar el proceso.
         while(bandera==true){
             System.out.println("Ingrese calificación");
             calificacion = entrada.nextDouble();
